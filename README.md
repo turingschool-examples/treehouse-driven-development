@@ -8,10 +8,10 @@ What could be better than renting out a beautiful treehouse cabin for the holida
 Your Treehouse class should meet the following requirements:
 
 * Have the following properties:
-  * `price`
-  * `bedrooms`
-  * `bathrooms`
-  * `location`
+  * `price <number>` 
+  * `bedrooms <number>` 
+  * `bathrooms <number>`
+  * `location <string>`
   * `isBooked` (default to false) 
 * Have the following functionality:  
   * Be able to go on sale. Passing in a number to this method should decrease the price property by that percent
@@ -22,7 +22,7 @@ Your Treehouse class should meet the following requirements:
 Your Customer class should meet the following requirements:
 
 * Have the following properties:
-  * `budget`
+  * `budget <number>`  
   * `bookings` (default to an empty array)
 * Have the following functionality:
   * Be able to check their budget. Passing in a treehouse to this method should return a boolean value indicating if they have enough money to book that treehouse or not
