@@ -14,7 +14,7 @@ Your Treehouse class should meet the following requirements:
   * location
   * isBooked (default to false) 
 * Have the following functionality:
-  Be able to go on sale. Passing in a percentage to this method should decrease the price property by that percent
+  Be able to go on sale. Passing in a number to this method should decrease the price property by that percent
   
  _Write the tests first, and then move on to your implementation code!_
 
@@ -28,5 +28,7 @@ Your Customer class should meet the following requirements:
   * Be able to check their budget. Passing in a treehouse to this method should return a boolean value indicating if they have enough money to book that treehouse or not
   * Be able to book a treehouse (add to bookings array) if that treehouse is in their budget
   * Be able to see a message if they do not have enough money to book that treehouse
+  * See their budget decrease after successfully booking a treehouse
+  * Update the treehouse isBooked property from false to true upon successful booking
  
  _Write the tests first, and then move on to your implementation code!_
