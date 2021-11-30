@@ -1,0 +1,15 @@
+{
+  "name": "treehouse-driven-development",
+  "version": "1.0.0",
+  "description": "Testing with Treehouses",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Hannah Hudson",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
