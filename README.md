@@ -14,7 +14,7 @@ Your Treehouse class should meet the following requirements:
   * location
   * isBooked (default to false) 
 * Have the following functionality:  
-  Be able to go on sale. Passing in a number to this method should decrease the price property by that percent
+  * Be able to go on sale. Passing in a number to this method should decrease the price property by that percent
   
  _Write the tests first, and then move on to your implementation code!_
 
