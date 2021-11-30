@@ -9,12 +9,18 @@ Your Treehouse class should meet the following requirements:
 
 * Have the following properties:
   * `price <number>` 
+  * `priceIndicator <string>`
   * `bedrooms <number>` 
   * `bathrooms <number>`
   * `location <string>`
   * `isBooked` (default to false) 
+  * 
 * Have the following functionality:  
   * Be able to go on sale. Passing in a number to this method should decrease the price property by that percent
+  * Determine its price indicator
+    * If the price is 100 or less, update the `priceIndicator` to '$'
+    * If the price is between 101 and 200, update the `priceIndicator` to '$$'
+    * If the price is over 200, update the `priceIndicator` to '$$$'
   
  _Write the tests first, and then move on to your implementation code!_
 
