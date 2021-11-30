@@ -25,10 +25,13 @@ Your Customer class should meet the following requirements:
   * `budget <number>`  
   * `bookings` (default to an empty array)
 * Have the following functionality:
-  * Be able to check their budget. Passing in a treehouse to this method should return a boolean value indicating if they have enough money to book that treehouse or not
-  * Be able to book a treehouse (add to bookings array) if that treehouse is in their budget
-  * Be able to see a message if they do not have enough money to book that treehouse
-  * See their budget decrease after successfully booking a treehouse
-  * Update the treehouse isBooked property from false to true upon successful booking
+  * Be able to check their budget. Passing in an instantiation of a treehouse to this method should return a boolean value indicating if they have enough money to book that treehouse or not
+  * Be able to book a passed in treehouse if it is in their budget
+     * Add to bookings array
+     * See their budget decrease by that amount   
+     * Update the treehouse isBooked property from false to true
+  * Not be able to book a passed in treehouse if it is NOT in their budget
+     * See an apologetic message 
+     * Their budget should not decrease
  
  _Write the tests first, and then move on to your implementation code!_
