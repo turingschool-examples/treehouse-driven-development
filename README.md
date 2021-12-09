@@ -9,7 +9,7 @@ Your Treehouse class should meet the following requirements:
 
 * Have the following properties:
   * `price <number>` 
-  * `priceIndicator <string>`
+  * `pricePoint <string>`
   * `bedrooms <number>` 
   * `bathrooms <number>`
   * `location <string>`
@@ -17,10 +17,10 @@ Your Treehouse class should meet the following requirements:
   * 
 * Have the following functionality:  
   * Be able to have a reduction in price. Passing in a number to this method should decrease the price property by that percent
-  * Determine its price indicator
-    * If the price is 100 or less, update the `priceIndicator` to '$'
-    * If the price is between 101 and 200, update the `priceIndicator` to '$$'
-    * If the price is over 200, update the `priceIndicator` to '$$$'
+  * Determine its price point
+    * If the price is 100 or less, update the `pricePoint` to '$'
+    * If the price is between 101 and 200, update the `pricePoint` to '$$'
+    * If the price is over 200, update the `pricePoint` to '$$$'
   
  _Write the tests first, and then move on to your implementation code!_
 
