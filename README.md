@@ -9,7 +9,7 @@ Your Treehouse class should meet the following requirements:
 
 * Have the following properties:
   * `price <number>` 
-  * `pricePoint <string>`
+  * `pricePoint <string>` (default to empty string)
   * `bedrooms <number>` 
   * `bathrooms <number>`
   * `location <string>`
