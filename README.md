@@ -14,7 +14,7 @@ Your Treehouse class should meet the following requirements:
   * `bathrooms <number>`
   * `location <string>`
   * `isBooked` (default to false) 
-  * 
+  
 * Have the following functionality:  
   * Be able to have a reduction in price. Passing in a number to this method should decrease the price property by that percent
   * Determine its price point
