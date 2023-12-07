@@ -1,4 +1,5 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const Treehouse = require('../src/Treehouse');
+// NOTE: You'll need to import the other functions you want to test from the Treehouse file!
+const { createTreehouse } = require('../src/Treehouse');
